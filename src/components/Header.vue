@@ -2,7 +2,7 @@
     <nav class="navbar navbar-default">
         <div class="container-fluid">
             <div class="navbar-header">
-                <router-link class="navbar-brand">Stock Trader</router-link>
+                <router-link to="/" class="navbar-brand">Stock Trader</router-link>
             </div>
 
             <div class="collapse navbar-collapse">
@@ -15,7 +15,7 @@
                         <a>Portfolio</a>
                     </router-link>
                     <router-link 
-                        to="/portofolio" 
+                        to="/stocks" 
                         active-class="active"
                         tag="li"
                     >
